@@ -1,0 +1,39 @@
+.Post {
+    background-color: #FEFEFE;
+    border: 1px solid #DDD;
+    border-radius: 20px;
+    width: 468px;
+    height: 468px;
+    min-height: 518px;
+    margin: 25px 0 0 0;
+}
+
+.ConteudoPost {
+    background-color: #cacaca;
+    width: 468px;
+    height: 468px;
+}
+
+.ConteudoPost img{
+    width: 468px;
+    height: 468px;
+}
+
+.BarraSuperior{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.ImagemPerfilAutor {
+    background-color: rgb(90, 92, 92);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin: 5px 8px 0;
+}
+
+.ImagemPerfilAutor img {
+    border-radius: 50%;
+    width: 100%;
+}

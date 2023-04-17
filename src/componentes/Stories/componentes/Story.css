@@ -1,0 +1,28 @@
+.Story {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+
+Story:hover{
+    opacity: 0.6;
+
+}
+
+.Story .imgStory {
+    width: 55px;
+    border-radius: 20px;
+}
+
+.Story .imgStory img {
+    width: 100%;
+    border-radius: 50px;
+    
+}
+.Story .nomeStory {
+    text-align: center;
+    font-size: 11px;
+}
