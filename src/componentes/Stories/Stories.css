@@ -1,6 +1,6 @@
 .Stories {
-    background-color: white;
-    border: 1px solid #dadada;
+    background-color: transparent;
+    border: 1px solid transparent;
     border-radius: 20px;
     width: 100%;
     height: 10%;
@@ -9,4 +9,6 @@
     display: flex;
     width: 470px;
     height: 95px;
+
+    margin-left: 500px;
 }
