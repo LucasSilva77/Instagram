@@ -13,7 +13,7 @@ function App() {
       <div className='Centro'>
         <Stories />
         <Feed />
-        <div className='Feed'>Feed</div>
+        <div className='Feed'></div>
       </div>
 
       <div className='LadoDireito'>
