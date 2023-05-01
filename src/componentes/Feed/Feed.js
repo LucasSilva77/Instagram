@@ -1,8 +1,10 @@
 import './Feed.css';
-import imgExemplo from './imagens/spiderman.jpg'
-import imgExemplo2 from './imagens/haranha.jpg'
-import imgExemplo3 from './imagens/miranha.jpg'
-import imagemPerfilExemplo01 from '../Feed/imagens/pfp.jpg'
+import imgExemplo from './imagens/ana.jpg'
+import imgExemplo2 from './imagens/jordan.webp'
+import imgExemplo3 from './imagens/supra.jpg'
+import imagemPerfilExemplo01 from '../Feed/imagens/pitas.jpg'
+import imagemPerfilExemplo02 from '../Feed/imagens/maze.jpg'
+import imagemPerfilExemplo03 from '../Feed/imagens/sow.jpg'
 
 import Post from './componentes/Post/Post'
 
@@ -10,20 +12,20 @@ export default function Feed() {
     return (
         <div className="Feed">
             <Post 
-            nomePerfil="Gabriel" 
+            nomePerfil="pitayaq" 
             imagemPost={imgExemplo}
             imagemPerfil={imagemPerfilExemplo01}
             />
 
             <Post 
-            nomePerfil='Tatu' 
+            nomePerfil='Mazesp' 
             imagemPost={imgExemplo2}
-            imagemPerfil={imagemPerfilExemplo01}
+            imagemPerfil={imagemPerfilExemplo02}
             />
             <Post 
-            nomePerfil='Dudu' 
+            nomePerfil='snows_garage' 
             imagemPost={imgExemplo3}
-            imagemPerfil={imagemPerfilExemplo01}
+            imagemPerfil={imagemPerfilExemplo03}
             />
         </div>
     )

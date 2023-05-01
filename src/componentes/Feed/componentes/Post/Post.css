@@ -1,15 +1,7 @@
-.Post {
-    background-color: #FEFEFE;
-    border: 1px solid #DDD;
-    border-radius: 20px;
-    width: 468px;
-    height: 468px;
-    min-height: 518px;
-    margin: 25px 0 0 0;
-}
+
 
 .ConteudoPost {
-    background-color: #cacaca;
+   
     width: 468px;
     height: 468px;
 }
@@ -17,6 +9,8 @@
 .ConteudoPost img{
     width: 468px;
     height: 468px;
+    border-radius: 4px;
+    
 }
 
 .BarraSuperior{
@@ -28,12 +22,117 @@
 .ImagemPerfilAutor {
     background-color: rgb(90, 92, 92);
     border-radius: 50%;
-    height: 35px;
-    width: 35px;
-    margin: 5px 8px 0;
+    height: 38px;
+    width: 38px;
+    margin: 5px 0 0;
+    
 }
 
 .ImagemPerfilAutor img {
     border-radius: 50%;
     width: 100%;
+    cursor: pointer;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(45deg, #ffea00 0%, #dd744e 25%, #f892a1 50%, #eb3fb7 75%, #e90ea3 100%) border-box;
+
+border: 3px solid transparent;
+    
+    border: 3px solid transparent;
+}
+
+.MenuBarraSuperior{
+    margin-left: 8px;
+    color: #818181;
+}
+
+.icons{
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+    
+    
+}
+
+.icons .icon{
+    font-size: 20px;
+    
+}
+
+.icons .icon2 {
+    margin-left: 343px
+}
+
+.coment {
+    display: flex;
+    gap: 4px;
+}
+
+.coment .usuario1{
+    font-weight: bold;
+    font-size: 14px;
+    color: #575757;
+    cursor: pointer;
+}
+.Comentarios{
+    font-size: 14px;
+}
+
+.VerTodos {
+    color: #818181;
+    font-size: 14px;
+    margin-top: 6px;
+    cursor: pointer;
+    
+    
+}
+
+.Curtidas {
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #575757;
+    cursor: pointer;
+}
+
+.BarraPesquisa{
+    width: 470px;
+    height: 30px;
+    margin-top: 6px;
+    margin: transparent;
+    font-size: 14px;
+    border: none;
+    outline: none; 
+    background-color: #FAFAFA;
+}
+
+.icon{
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.icon2{
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.menu-principal .Mais{
+    margin-top: 190px;
+}
+
+.icone-mais .iconmore1 .iconsmore .iconmore3{
+    margin-left: 290px;
+    cursor: pointer;   
+}
+
+.NomePerfilAutor{
+    font-weight: bold;
+    cursor: pointer;
+    color: #575757;
+    margin-left: 8px;
+}
+
+.Post {
+    border-bottom: 1px solid #adadad;
+    
 }
